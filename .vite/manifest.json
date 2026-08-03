@@ -1,17 +1,17 @@
 {
   "../../node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-Dv0XHYQr.js",
+    "file": "assets/layout-segment-context-Bivcx9RQ.js",
     "name": "layout-segment-context",
     "src": "../../node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "virtual:vinext-app-browser-entry",
-      "_framework-CXnKph_e.js"
+      "_framework-DjPHiq1u.js"
     ]
   },
-  "_framework-CXnKph_e.js": {
-    "file": "assets/framework-CXnKph_e.js",
+  "_framework-DjPHiq1u.js": {
+    "file": "assets/framework-DjPHiq1u.js",
     "name": "framework",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js"
@@ -21,51 +21,40 @@
     "file": "assets/rolldown-runtime-S-ySWqyJ.js",
     "name": "rolldown-runtime"
   },
+  "app/ArchiveHub.tsx": {
+    "file": "assets/ArchiveHub-DFlc8TU4.js",
+    "name": "ArchiveHub",
+    "src": "app/ArchiveHub.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-DjPHiq1u.js"
+    ]
+  },
   "app/CopyWechatButton.tsx": {
-    "file": "assets/CopyWechatButton-BToIrH6w.js",
+    "file": "assets/CopyWechatButton-CahMtlkI.js",
     "name": "CopyWechatButton",
     "src": "app/CopyWechatButton.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_framework-CXnKph_e.js"
-    ]
-  },
-  "app/EvidenceGallery.tsx": {
-    "file": "assets/EvidenceGallery-QnDWy56K.js",
-    "name": "EvidenceGallery",
-    "src": "app/EvidenceGallery.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_rolldown-runtime-S-ySWqyJ.js",
-      "_framework-CXnKph_e.js"
-    ]
-  },
-  "app/TeacherTeam.tsx": {
-    "file": "assets/TeacherTeam-CBi5AVJJ.js",
-    "name": "TeacherTeam",
-    "src": "app/TeacherTeam.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_rolldown-runtime-S-ySWqyJ.js",
-      "_framework-CXnKph_e.js"
+      "_framework-DjPHiq1u.js"
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-gLW4ikUv.js",
+    "file": "assets/index-8X5Q_KBz.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_framework-CXnKph_e.js"
+      "_framework-DjPHiq1u.js"
     ],
     "dynamicImports": [
       "app/CopyWechatButton.tsx",
+      "app/ArchiveHub.tsx",
       "virtual:vinext-app-browser-entry",
-      "../../node_modules/vinext/dist/shims/layout-segment-context.js",
-      "app/EvidenceGallery.tsx",
-      "app/TeacherTeam.tsx"
+      "../../node_modules/vinext/dist/shims/layout-segment-context.js"
     ]
   }
 }
